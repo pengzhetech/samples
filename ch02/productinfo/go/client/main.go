@@ -10,8 +10,8 @@ import (
 	"log"
 	"time"
 
-	pb "productinfo/client/ecommerce"
 	"google.golang.org/grpc"
+	pb "productinfo/client/ecommerce"
 )
 
 const (
@@ -29,7 +29,8 @@ func main() {
 
 	// Contact the server and print out its response.
 	name := "Apple iPhone 11"
-	description := "Meet Apple iPhone 11. All-new dual-camera system with Ultra Wide and Night mode."
+	//description := "Meet Apple iPhone 11. All-new dual-camera system with Ultra Wide and Night mode."
+	description := "zhegeeeee"
 	price := float32(699.00)
 	ctx, cancel := context.WithTimeout(context.Background(), time.Second)
 	defer cancel()
